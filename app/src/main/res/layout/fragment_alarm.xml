@@ -1,0 +1,67 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageView
+        android:id="@+id/imgViewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+
+        android:contentDescription="photo"
+        android:padding="10dp"
+
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/camera"></ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+
+        android:layout_margin="10dp"
+        android:id="@+id/btnTakePhoto"
+        />
+
+    <VideoView
+        android:id="@+id/imgViewCamera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+
+        android:contentDescription="photo"
+        android:padding="10dp"
+
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/videocamera">
+
+    </VideoView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录像"
+
+        android:layout_margin="10dp"
+        android:id="@+id/btnTakeVideo"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorButtonText"
+        android:id="@+id/btn_alarm"
+        android:text="报警">
+
+    </Button>
+
+
+</LinearLayout>

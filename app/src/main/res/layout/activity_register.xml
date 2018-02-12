@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户注册"
+        android:textAlignment="center"
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号码"
+        android:layout_margin="10dp"
+        android:id="@+id/txtCellPhone"
+        android:inputType="phone|number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:id="@+id/txtUserPwd"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="确认密码"
+        android:inputType="textPassword"
+        android:id="@+id/txtUserReCheckPwd"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        style="@style/LoginButton"
+        android:text="注册"
+        android:id="@+id/btnRegister"
+        />
+</LinearLayout>

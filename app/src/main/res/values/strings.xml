@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">报警系统</string>
+    <string name="bottom_bar_map">地图</string>
+    <string name="bottom_bar_police">警局</string>
+    <string name="bottom_bar_news">消息</string>
+    <string name="bottom_bar_setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

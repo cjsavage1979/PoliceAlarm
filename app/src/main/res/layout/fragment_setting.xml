@@ -1,0 +1,60 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+
+        android:id="@+id/txtUserInforName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:hint="姓名"
+
+        />
+    <EditText
+
+        android:id="@+id/txtUserInforCellPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="手机"
+
+        android:inputType="phone"
+        />
+
+    <EditText
+
+        android:id="@+id/txtUserInforRelativePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="紧急联系人电话"
+
+        android:inputType="phone"
+        />
+    <EditText
+
+        android:id="@+id/txtUserInforHomeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="家庭住址"
+
+        android:height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:inputType="textImeMultiLine"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="保存联系人信息"
+        style="@style/LoginButton"
+        android:id="@+id/btnSaveUserInfor"
+        />
+
+
+</LinearLayout>
